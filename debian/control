@@ -9,13 +9,15 @@ Build-Depends: debhelper (>= 12),
  librust-libc-0.2+default-dev (>= 0.2.6-~~) <!nocheck>,
  librust-winapi-0.3+default-dev <!nocheck>,
  librust-winapi-0.3+processthreadsapi-dev <!nocheck>
-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Uploaders:
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+XSBC-Pexip-Original-Uploaders:
  Sylvestre Ledru <sylvestre@debian.org>
 Standards-Version: 4.5.1
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/thread-id]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/thread-id
 Rules-Requires-Root: no
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ bookworm
 
 Package: librust-thread-id-dev
 Architecture: any
